@@ -1,0 +1,61 @@
+@import url(/css/style.css);
+
+.formulary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.form__field{
+    border-style: none;
+    border: 1px solid var(--Dark-grayish-violet);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+    color: var(--Dark-grayish-violet);
+    font-weight: 500;
+    font-family: var(--Space-Grotesk);
+    
+}
+
+.form__field:focus{
+    outline: 0;
+}
+
+.field__cvc{
+    width: 20vh;
+}
+.fiel__date{
+    width: 5vh;
+}
+
+.form__fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__date-cvc{
+    display: flex;
+}
+
+.cvc{
+    margin-left: 10px;
+}
+
+.form__button{
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: var(--Very-dark-violet);
+    color: var(--White);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+}

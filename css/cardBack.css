@@ -1,0 +1,40 @@
+@import url(/css/style.css);
+
+.card__back{
+    margin-top: 60px;
+    margin-left: 77px;
+    display: initial;
+    position: relative;
+    top: 50px;
+}
+
+.card__image-back{
+    width: 35vh;
+}
+
+.card__cvc{
+    display: initial;
+    position: relative;
+    top: 84px;
+    left: 226px;
+}    
+
+@media screen and (min-width:1440px){
+    .card__back{
+        position: relative;
+        top: -90px;
+    }
+
+    .card__image-back{
+        width: 50vh;
+    }
+
+    .card__cvc{
+        font-size: 20px;
+        display: initial;
+        position: relative;
+        top: -120px;
+        left: 45vh;
+    }
+
+}

@@ -1,0 +1,50 @@
+@import url(/css/style.css);
+@import url(/css/cardBack.css);
+@import url(/css/cardFront.css);
+
+/* success */
+.success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.success__icon{
+    width: 10vh;
+    margin: 40px 0px ;
+}
+
+.success__title{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.success__text{
+    margin: 20px auto;
+    color: var(--Dark-grayish-violet);
+}
+
+.success__button{
+    background-color: var(--Very-dark-violet);
+    border-style: none;
+    border-radius: 10px;
+    color: var(--White);
+    font-size: 15px;
+    font-family: var(--Space-Grotesk);
+    font-weight: 500;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width:1440px){
+    body{
+        background: no-repeat left/ contain url(../images/bg-main-desktop.png);
+    }
+
+    .success{
+        width: 45vh;
+    }
+
+}

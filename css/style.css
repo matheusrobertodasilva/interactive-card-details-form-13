@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url(/css/cardBack.css);
+@import url(/css/cardFront.css);
+@import url(/css/formulary.css);
+@import url(/css/success.css);
 
 :root {
     /* Colors */
@@ -18,4 +22,62 @@
     /* Font */
 
     --Space-Grotesk: 'Space Grotesk', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: no-repeat top/100% url(../images/bg-main-mobile.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Space-Grotesk);
+    font-size: 16px;
+}
+
+.component{
+    width: 45vh;
+    padding: 20px;
+}
+
+.content__cards{
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    position: relative;
+    bottom: 50px;
+}
+
+.message-erro{
+    color: var(--Red-input-errors);
+    font-size: 12px;
+}
+
+
+@media screen and (min-width:1280px){
+
+}
+
+@media screen and (min-width:1440px){
+    body{
+        background: no-repeat left/40% url(../images/bg-main-desktop.png);
+    }
+
+    .component{
+        display: flex;
+        width: 120vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content__cards{
+        display: flex;
+        flex-direction: column-reverse;
+        /* height: 100vh; */
+        margin-right: 50px;
+    }
+
 }

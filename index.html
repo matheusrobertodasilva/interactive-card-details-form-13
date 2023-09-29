@@ -8,6 +8,61 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <section class="component">
+        
+        <div class="content__cards">
+
+            <div class="card__back">
+                <p class="card__cvc">000</p>
+                <img src="./images/bg-card-back.png" alt="parte de tras de um cartão" class="card__image-back">
+            </div>
+
+            <div class="card__front">
+                <div class="block__card">
+                    <img src="./images/card-logo.svg" alt="Logo do cartão" class="card__logo">
+                    <p class="card__number">0000 0000 0000 0000 0000</p>
+                    <div class="card__name-date">
+                        <p class="name">NAME</p>
+                        <p class="date">00/00</p>
+                    </div>
+                </div>
+                <img src="./images/bg-card-front.png" alt="parte da frente de um cartão" class="card__image-front">
+            </div>
+        </div>
+        <form action="" class="formulary">
+            <fieldset class="form__fields">
+                <label for="name" class="form__title">CAEDHOLDER NAME</label>
+                <input name="name" id="name" type="text" class="form__field" min="3" placeholder="e.g. Jane Appleseed" required maxlength="16">
+                <span class="message-erro"></span>
+            </fieldset>
+
+            <fieldset class="form__fields">
+                <label for="card-number" class="form__title">CARD NUMBER</label>
+                <input name="number" id="cardNumber" type="text" class="form__field" minlength="16" placeholder="e.g. 1234 5678 9123 0000" required maxlength="16" min="16" max="16">
+                <span class="message-erro"></span>
+            </fieldset>
+
+            <fieldset class="form__date-cvc">
+                <fieldset class="form__fields">
+                    <label for="date" class="form__title">EXP.DATE (MM/YY)</label>
+                    <fieldset>
+                        <input name="month" id="month" type="text" class="form__field fiel__date" placeholder="MM" maxlength="2" required>
+                        <input name="year" id="year" type="text" class="form__field fiel__date" placeholder="YY" required maxlength="2">
+                        <span class="message-erro"></span>
+                    </fieldset>
+                </fieldset>
+                <fieldset class="form__fields cvc">
+                    <label for="cvc" class="form__title">CVC</label>
+                    <input name="cvc" id="cvc" type="text" placeholder="e.g.123" class="form__field field__cvc" maxlength="3" required>
+                    <span class="message-erro"></span>
+                </fieldset>
+            </fieldset>
+
+
+            <input type="submit" value="Confirm" class="form__button">
+
+        </form>
+    </section>  
+    <script src="./js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,93 @@
+@import url(/css/style.css);
+/* Card front */
+.card__front{
+    display: initial;
+    position: relative;
+    bottom: 140px;
+}
+
+.card__front{
+    margin-right: 77px;
+}
+
+.block__card{
+    position: relative;
+    top: 140px;
+    left: 15px;
+    width: 31vh;
+}
+
+.card__logo{
+    width: 60px;
+    margin-bottom: 25px;
+}
+
+.card__number{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.card__name-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    font-size: 14px;
+    
+}
+
+.date{
+    font-size: 14px;
+}
+
+.card__image-front{
+    width: 35vh;
+}
+
+@media screen and (min-width:1440px){
+    .card__front{
+        bottom: 70px;
+    }
+
+    .block__card{
+        position: relative;
+        top: 200px;
+        left: 40px;
+        width: 40vh;
+    }
+
+    .card__logo{
+        width: 10vh;
+        margin-bottom: 35px;
+    }
+    
+    .card__number{
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    
+    .card__name-date{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .name{
+        font-size: 18px;
+        
+    }
+    
+    .date{
+        font-size: 18px;
+    }
+
+    .card__back{
+        /* margin: 0;
+        margin-right: 85px; */
+    }
+    .card__image-front{
+        width: 50vh;
+    }
+}
