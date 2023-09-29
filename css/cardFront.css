@@ -12,7 +12,7 @@
 
 .block__card{
     position: relative;
-    top: 140px;
+    top: 125px;
     left: 15px;
     width: 31vh;
 }
@@ -24,7 +24,7 @@
 
 .card__number{
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .card__name-date{
